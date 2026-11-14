@@ -1,0 +1,7 @@
+Replay Strategy
+
+1. Maintain checkpoint after each successful batch.
+2. Store processed transaction IDs.
+3. If a job fails, restart from the last checkpoint.
+4. Replay only unprocessed transactions.
+5. Deduplication ensures replayed records do not create duplicates.

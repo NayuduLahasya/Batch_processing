@@ -1,0 +1,3 @@
+transaction_id,account_id,amount,txn_type,txn_time
+T000021,A9999,9000,CREDIT,2026-11-14 09:20:21
+T000022,A8888,4000,DEBIT,2026-11-14 09:21:22
